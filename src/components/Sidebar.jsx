@@ -11,6 +11,7 @@ import {
   User2,
   DollarSign,
 } from "lucide-react";
+import { BsPeople } from "react-icons/bs";
 
 import { Link, useLocation } from "react-router-dom";
 
@@ -19,6 +20,7 @@ const menuItems = [
   { name: "Produk", icon: <Box />, path: "/produk" },
   { name: "Laporan", icon: <BarChart2 />, path: "/laporan" },
   { name: "Penjualan", icon: <DollarSign />, path: "/penjualan" },
+  { name: "Pelanggan", icon: <BsPeople />, path: "/pelanggan" },
 ];
 
 const accountItems = [
